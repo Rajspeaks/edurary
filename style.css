@@ -1,0 +1,31 @@
+.banner-1{
+	width: 100%;
+}
+
+.btn{
+	width: 150px;
+	height: 50px;
+	color: blue;
+	background-color: orange;
+	text-align: center;
+	margin-left: 650px;
+	border: 1px solid black;
+	margin-top: 20px
+
+
+}
+
+
+.jumbotron{
+	background: none;
+}
+.carousel-inner{
+	height: 60%;
+}
+
+form-1{
+	margin-top: 300px
+}
+.header-1{
+	margin-top: 200px
+}

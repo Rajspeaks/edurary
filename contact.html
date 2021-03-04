@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edurary</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Edurary: Enlight with Eduation <br><br> Spark Foundation Task 3 Payment-Gateway Integration Project by Rajdeep Das</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="donate.html">Donate Us</a>
+      </li>
+  
+  
+  </div>
+</nav>
+
+ <div class="container">
+
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
+            <h1 class="form-title">Get in Touch</h1>
+          </div>
+      </div>
+
+      <div class="row">
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+              <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
+
+                  <div class="form-group">
+                      <label class="form-label" id="nameLabel" for="name"></label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+                  </div>
+
+                  <div class="form-group">
+                      <label class="form-label" id="emailLabel" for="email"></label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+                  </div>
+
+                  <div class="form-group">
+                      <label class="form-label" id="subjectLabel" for="sublect"></label>
+                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                  </div>
+
+                  <div class="form-group">
+                      <label class="form-label" id="messageLabel" for="message"></label>
+                      <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>                                 
+                  </div>
+
+                  <div class="text-center margin-top-25">
+                      <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
+                  </div>
+
+              </form><!-- End form -->
+            
+          </div><!-- End col -->
+
+      </div><!-- End row -->
+      
+    </div><!-- End container -->
+
+</body>
+</html>
