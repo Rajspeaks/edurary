@@ -3,9 +3,10 @@
 
 Check out the link below:
 
-https://pay2edurary.netlify.app
+https://rajspeaks.github.io/edurary/
 
 YouTube Video URL: 
+
 https://www.youtube.com/watch?v=QkfU0hHSBrY
 
 Project name: Edurary & the payment portal name: Pay2Edurary. 
